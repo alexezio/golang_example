@@ -8,7 +8,7 @@ import (
 
 func main() {
 	http.HandleFunc("/", func(w http.ResponseWriter, r *http.Request) {
-		fmt.Fprintf(w, "hello, world, this is environment %s", os.Getenv("environment"))
+		fmt.Fprintf(w, "hello, world, this is environment for %s", os.Getenv("environment"))
 	})
 
 	fmt.Println("Server started on port 8080")
