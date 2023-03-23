@@ -1,0 +1,5 @@
+image:
+  repository: alexezio.azurecr.io/test/example
+  tag: latest
+env:
+  environment: production
